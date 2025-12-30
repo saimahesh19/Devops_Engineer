@@ -3759,10 +3759,4 @@ A: `&&` runs next command if previous succeeds (AND). `||` runs next command if 
 **Q: How to run a command in the background?**
 A: Append `&`: `command &`. Use `nohup` to persist after logout: `nohup command &`.
 
-### Advanced Questions
 
-**Q: What is a container?**
-A: A container is a lightweight, isolated environment that packages an application with its dependencies. Containers share the host kernel but have isolated filesystem, network, and process space.
-
-**Q: Difference between container and VM?**
-A: Containers share the host 
